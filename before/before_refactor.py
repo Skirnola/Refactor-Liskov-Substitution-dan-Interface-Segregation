@@ -11,7 +11,8 @@ class MahasiswaCuti(Mahasiswa):
     def presentasi(self):
         raise Exception("Mahasiswa cuti tidak mengikuti presentasi")
 
-    
+
+# CASE 2 - ISP    
 class AktivitasMahasiswa:
     def kuliah(self):
         pass
@@ -22,7 +23,6 @@ class AktivitasMahasiswa:
     def ikut_organisasi(self):
         pass
 
-# CASE 2 - ISP
 class MahasiswaBiasa(AktivitasMahasiswa):
     def kuliah(self):
         print("Mahasiswa mengikuti perkuliahan")
